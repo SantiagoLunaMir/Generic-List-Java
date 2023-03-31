@@ -5,21 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e330974d-8996-4ea8-ab6a-100e93386b1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/List_Arrays-Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/Navigable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/arraylist/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/arraylist/ArrayListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/linkedlist/LinkedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/objetos/list/linkedlist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/BadIndexException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/CollectionsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/NotNullAllowedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List_Arrays-Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/List_Arrays-Generics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Navigable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Navigable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,18 +46,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2MvSgrRyZm3J2bZgjYbKpAtWSPN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/verde/OneDrive/Escritorio/UASLP/4to_semestre/tecnologia_orientada_objetos/List_Arrays-Generics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\verde\OneDrive\Escritorio\UASLP\4to_semestre\tecnologia_orientada_objetos\List_Arrays-Generics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\verde\OneDrive\Escritorio\UASLP\4to_semestre\tecnologia_orientada_objetos\List_Arrays-Generics\src\uaslp\main\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +93,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678646679042</updated>
+      <workItem from="1678650053772" duration="369000" />
+      <workItem from="1678650493000" duration="667000" />
+      <workItem from="1678759062353" duration="34000" />
+      <workItem from="1678937750015" duration="3408000" />
+      <workItem from="1679013564503" duration="5761000" />
+      <workItem from="1679192474723" duration="4032000" />
+      <workItem from="1679352464268" duration="169000" />
+      <workItem from="1679964492530" duration="3157000" />
+      <workItem from="1680054602966" duration="3474000" />
+      <workItem from="1680193156675" duration="94000" />
+      <workItem from="1680219537819" duration="5946000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

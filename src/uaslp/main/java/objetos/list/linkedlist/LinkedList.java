@@ -1,6 +1,6 @@
-package uaslp.objetos.list.linkedlist;
-import uaslp.objetos.list.Iterator;
-import uaslp.objetos.list.List;
+package objetos.list.linkedlist;
+import objetos.list.Iterator;
+import objetos.list.List;
 
 public class LinkedList<T> implements List<T> {
     private Node<T> head=null;

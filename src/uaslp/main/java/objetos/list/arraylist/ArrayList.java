@@ -1,5 +1,12 @@
-package uaslp.objetos.list.arraylist;
-import uaslp.objetos.list.List;
+package objetos.list.arraylist;
+import objetos.list.arraylist.ArrayListIterator;
+import objetos.list.List;
+import objetos.list.Iterator;
+import objetos.list.exceptions.CollectionsException;
+import objetos.list.exceptions.BadIndexException;
+import objetos.list.exceptions.NotNullAllowedException;
+
+
 public class ArrayList<T> implements List<T>{
     private static final int INITIAL_SIZE=2;
     // private Object[] array;//data.lenght para el tam de arreglo
@@ -35,7 +42,42 @@ public class ArrayList<T> implements List<T>{
         array[size]=data;
         size ++;
     }
-    public void addAtFront(T data){
+    private boolean isInvalidIndex(int index){
+        return index >= size || index < 0;
+    }
+    private boolean shouldDecrease() {
+        return size < array.length / 4;
+    }
+    private void decreaseSize() {
+        T []newArray = (T[])(new Object[array.length / 2]);
+        Iterator<T> iterator = getIterator();
+        int newIndex = 0;
+        while(iterator.hasNext()){
+            newArray[newIndex] = iterator.next();
+            newIndex++;
+        }
+        array = newArray;
+    }
+    public void remove(int index) throws BadIndexException{//avisa que el metodo lanza excepciones
+        if(isInvalidIndex(index)){
+            return;
+            //throw new BadIndexException(); //tira el nuevo error
+        }
+
+        for(int i = index ; i < size - 1; i++){
+            array[i] = array[i+1];
+        }
+
+        size--;
+
+        if(shouldDecrease()){
+            decreaseSize();
+        }
+    }
+    public void addAtFront(T data) throws NotNullAllowedException{
+        if(data==null){
+            throw new NotNullAllowedException();
+        }
         if(size== array.length) {
             increaseSize();
         }
@@ -50,45 +92,45 @@ public class ArrayList<T> implements List<T>{
         array[0] = data;
         size++;
     }
-    public void  setAt(int index,T data){
-        if(index<=array.length){
-            array[index]=data;
+    public void setAt(int index, T data) {
+        if(isInvalidIndex(index)){
+            return;
         }
+        array[index] = data;
     }
+
     public void removeAll(){
-        size=0;
-        for (int i=0;array[i]!=null;i++){
-            array[i]=null;
-        }
+        array = (T[])(new Object[INITIAL_SIZE]);//hacemos uso del garbage collector porque no tenemos que preocuprnos de la memoria
         System.out.println("Eliminado todo el arreglo");
         size=0;
     }
-    public void removeAllWithValue(T data){
-        boolean found=false;
-        for(int i=0;i<array.length;i++){
-            if(array[i]!=null){
-                if(array[i].equals(data))
-                    size --;
-                if(array[i].equals(data)|| found){
-                    found=true;
-                    array[i]=array[i+1];
-                }
+    public void removeAllWithValue(T data) {
 
+        for(int currentIndex = size-1; currentIndex >= 0; currentIndex--){
+            if(array[currentIndex].equals(data)) {
+                try {
+                    remove(currentIndex);
+                }catch (BadIndexException ignored){
+                }
             }
         }
-        if(!found){
-            System.out.println("No se encontro la informacion");
-        }
+
     }
-    public void remove(int index){
+
+    /*public void remove1(int index) throws CollectionsException{//avisa que el metodo lanza excepciones
         // boolean found=false;
-        if(index>array.length){
-            System.out.println("No existe");
-            return;
+        try {
+            if (index > array.length) {
+                throw new CollectionsException();//throwable
+                //System.out.println("No existe");
+                //return;
+            }
+        }catch (CollectionsException Ex){
+
         }
         array[index]=null;
         size --;
-    }
+    }*/
     public ArrayListIterator<T> getIterator(){
         return new ArrayListIterator<>(this);
     }

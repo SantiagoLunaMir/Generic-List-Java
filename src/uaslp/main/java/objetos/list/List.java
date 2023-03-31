@@ -1,18 +1,19 @@
-package uaslp.objetos.list;
+package objetos.list;
 
-import uaslp.objetos.list.linkedlist.LinkedListIterator;
-//import uaslp.objetos.list.linkedlist.Node;
+import objetos.list.exceptions.BadIndexException;
+import objetos.list.exceptions.NotNullAllowedException;
 
-public interface List <G> {//Esta T se refiere a esta clase, solo se llama asi por lo genral es un standar
-    void setAt(int index,G data);
+public interface List <T> {
+
+    void addAtTail(T data) throws NotNullAllowedException;
+    void addAtFront(T data) throws NotNullAllowedException;
+    void remove(int index) throws BadIndexException;
     void removeAll();
-    void removeAllWithValue(G data);
-    void remove(int index);
-    void addAtTail(G data);
-    void addAtFront(G data);
-    G getAt(int index);
+    void setAt(int index, T data) throws BadIndexException, NotNullAllowedException;
+    T getAt(int index) throws BadIndexException;
+    void removeAllWithValue(T data);
     int getSize();
-    Iterator<G> getIterator();
     boolean isEmpty();
+    Iterator<T> getIterator();
 
 }

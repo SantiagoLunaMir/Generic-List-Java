@@ -1,5 +1,5 @@
-package uaslp.objetos.list.arraylist;
-import uaslp.objetos.list.Iterator;
+package objetos.list.arraylist;
+import objetos.list.Iterator;
 
 public class ArrayListIterator<H> implements Iterator<H> {
     private int currentIndex;

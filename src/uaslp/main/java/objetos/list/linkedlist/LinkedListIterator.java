@@ -1,6 +1,6 @@
-package uaslp.objetos.list.linkedlist;
-import uaslp.objetos.list.Iterator;
-import uaslp.objetos.list.Navigable;
+package objetos.list.linkedlist;
+import objetos.list.Iterator;
+import objetos.list.Navigable;
 public class LinkedListIterator<K> extends Object implements Iterator<K> {//no se sugiere mas de una interfaz por classe
     private Node<K> currentNode;
     LinkedListIterator(Node<K> head){

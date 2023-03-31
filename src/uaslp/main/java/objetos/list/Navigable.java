@@ -1,4 +1,4 @@
-package uaslp.objetos.list;
+package objetos.list;
 
 public interface Navigable{
     Object next();
