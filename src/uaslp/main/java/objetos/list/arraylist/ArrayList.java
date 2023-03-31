@@ -45,7 +45,7 @@ public class ArrayList<T> implements List<T>{
     private boolean isInvalidIndex(int index){
         return index >= size || index < 0;
     }
-    private boolean shouldDecrease() {
+    private boolean Decrease() {
         return size < array.length / 4;
     }
     private void decreaseSize() {
@@ -60,17 +60,14 @@ public class ArrayList<T> implements List<T>{
     }
     public void remove(int index) throws BadIndexException{//avisa que el metodo lanza excepciones
         if(isInvalidIndex(index)){
-            return;
-            //throw new BadIndexException(); //tira el nuevo error
+            //return;
+            throw new BadIndexException(); //tira el nuevo error
         }
-
         for(int i = index ; i < size - 1; i++){
             array[i] = array[i+1];
         }
-
         size--;
-
-        if(shouldDecrease()){
+        if(Decrease()){
             decreaseSize();
         }
     }
@@ -92,9 +89,10 @@ public class ArrayList<T> implements List<T>{
         array[0] = data;
         size++;
     }
-    public void setAt(int index, T data) {
+    public void setAt(int index, T data) throws BadIndexException{
         if(isInvalidIndex(index)){
-            return;
+            throw new BadIndexException();
+            //return;
         }
         array[index] = data;
     }

@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e330974d-8996-4ea8-ab6a-100e93386b1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/BadIndexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/CollectionsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/exceptions/NotNullAllowedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List_Arrays-Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/List_Arrays-Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Navigable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/Navigable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/arraylist/ArrayListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/LinkedListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/main/java/objetos/list/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +85,7 @@
       <workItem from="1679964492530" duration="3157000" />
       <workItem from="1680054602966" duration="3474000" />
       <workItem from="1680193156675" duration="94000" />
-      <workItem from="1680219537819" duration="5946000" />
+      <workItem from="1680219537819" duration="6256000" />
     </task>
     <servers />
   </component>

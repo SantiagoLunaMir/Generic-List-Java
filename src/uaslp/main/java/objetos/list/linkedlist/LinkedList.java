@@ -1,6 +1,8 @@
 package objetos.list.linkedlist;
 import objetos.list.Iterator;
 import objetos.list.List;
+import objetos.list.exceptions.BadIndexException;
+import objetos.list.exceptions.NotNullAllowedException;
 
 public class LinkedList<T> implements List<T> {
     private Node<T> head=null;
@@ -21,7 +23,10 @@ public class LinkedList<T> implements List<T> {
     public Node<T> getCurrentNode() {
         return currentNode;
     }
-    public void addAtFront(T data) {
+    public void addAtFront(T data) throws NotNullAllowedException {
+        if( data==null){
+            throw new NotNullAllowedException();
+        }
         Node<T> node = new Node<>(data);
         node.next =head;
         if(isEmpty()){
@@ -32,9 +37,10 @@ public class LinkedList<T> implements List<T> {
         head = node;
         size++;
     }
-    public void remove(int index) {
+    public void remove(int index) throws BadIndexException {
         if(isInvalidIndex(index)){
-            return;
+            throw new BadIndexException();
+            //return;
         }
         LinkedListIterator<T> iterator = (LinkedListIterator<T>) getIterator();
         int current_index = 0;
