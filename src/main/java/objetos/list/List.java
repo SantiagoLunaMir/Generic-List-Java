@@ -6,7 +6,7 @@ import objetos.list.exceptions.NotNullAllowedException;
 public interface List <T> {
 
     void addAtTail(T data) throws NotNullAllowedException;
-    void addAtFront(T data) throws NotNullAllowedException;
+    void addAtFront(T data) throws NotNullAllowedException, BadIndexException;
     void remove(int index) throws BadIndexException;
     void removeAll();
     void setAt(int index, T data) throws BadIndexException, NotNullAllowedException;

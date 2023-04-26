@@ -32,7 +32,10 @@ public class ArrayList<T> implements List<T>{
     public int getSize(){
         return size;
     }
-    public T getAt(int index){
+    public T getAt(int index) throws BadIndexException{
+        if(index>=array.length){
+           return null;
+        }
         return (T)array[index];
     }
     public void addAtTail(T data){
@@ -48,7 +51,7 @@ public class ArrayList<T> implements List<T>{
     private boolean Decrease() {
         return size < array.length / 4;
     }
-    private void decreaseSize() {
+    private void decreaseSize() throws BadIndexException {
         T []newArray = (T[])(new Object[array.length / 2]);
         Iterator<T> iterator = getIterator();
         int newIndex = 0;
@@ -71,7 +74,7 @@ public class ArrayList<T> implements List<T>{
             decreaseSize();
         }
     }
-    public void addAtFront(T data) throws NotNullAllowedException{
+    public void addAtFront(T data) throws NotNullAllowedException, BadIndexException {
         if(data==null){
             throw new NotNullAllowedException();
         }

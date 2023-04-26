@@ -1,6 +1,6 @@
 package objetos.list.linkedlist;
 import objetos.list.Iterator;
-import objetos.list.Navigable;
+
 public class LinkedListIterator<K> extends Object implements Iterator<K> {//no se sugiere mas de una interfaz por classe
     private Node<K> currentNode;
     LinkedListIterator(Node<K> head){
@@ -19,8 +19,8 @@ public class LinkedListIterator<K> extends Object implements Iterator<K> {//no s
         return currentNode != null;
     }
 
-    public Object previous() {
-        Object data = currentNode.data;
+    public K previous() {
+        K data = currentNode.data;
         currentNode = (Node<K>) currentNode.previous;
         return data;
     }

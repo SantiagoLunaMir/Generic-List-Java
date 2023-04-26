@@ -72,9 +72,9 @@ public class LinkedList<T> implements List<T> {
         }
         iterator.getCurrentNode().data = data;
     }
-    public T getAt(int index){
-        if(isInvalidIndex(index)){
-            return null; //error handling
+    public T getAt(int index) throws BadIndexException{
+        if(isInvalidIndex(index)) {
+            return null;
         }
         LinkedListIterator<T> iterator = (LinkedListIterator<T>) getIterator();
         int current_index = 0;
@@ -83,8 +83,11 @@ public class LinkedList<T> implements List<T> {
             current_index++;
         }
         return iterator.next();
+
+         //error handling
     }
     public void removeAllWithValue(T data){
+        //checar valores
         LinkedListIterator<T> iterator = (LinkedListIterator<T>) getIterator();
         while(iterator.hasNext()) {
             Node<T> temp = iterator.getCurrentNode();
@@ -94,7 +97,6 @@ public class LinkedList<T> implements List<T> {
             }
             iterator.next();
         }
-
     }
     public int getSize() {
         return size;

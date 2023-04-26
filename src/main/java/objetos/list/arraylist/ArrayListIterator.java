@@ -1,6 +1,6 @@
 package objetos.list.arraylist;
 import objetos.list.Iterator;
-
+import objetos.list.exceptions.BadIndexException;
 public class ArrayListIterator<H> implements Iterator<H> {
     private int currentIndex;
     private final ArrayList<H> list;
@@ -15,7 +15,7 @@ public class ArrayListIterator<H> implements Iterator<H> {
     public boolean hasNext(){
         return currentIndex<list.getSize();
     }
-    public H next() {
+    public H next() throws BadIndexException {
         H data= (H) list.getAt(currentIndex);
         currentIndex++;
         return data;
@@ -24,7 +24,7 @@ public class ArrayListIterator<H> implements Iterator<H> {
         return currentIndex >= 0;
     }
 
-    public H previous() {
+    public H previous() throws BadIndexException {
         H data = list.getAt(currentIndex);
         currentIndex--;
         return data;

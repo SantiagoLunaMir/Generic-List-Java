@@ -1,9 +1,5 @@
 //package test;
 
-import java.io.IOException;
-
-import objetos.list.Iterator;
-import objetos.list.List;
 import objetos.list.Iterator;
 import objetos.list.List;
 import objetos.list.arraylist.ArrayList;
@@ -42,7 +38,7 @@ public class Main {
         }
     }
 
-    private static void testRemoveAllWithValue(List<Object> list) throws NotNullAllowedException {
+    private static void testRemoveAllWithValue(List<Object> list) throws NotNullAllowedException,BadIndexException,IndexOutOfBoundsException {
         System.out.println("\n-> Test remove all with value.");
         list.addAtTail("A");
         list.addAtTail(1);
@@ -60,7 +56,7 @@ public class Main {
         System.out.println("Size: " + list.getSize());
     }
 
-    private static void testGetAtIndex(List<Object> list) throws CollectionsException {
+    private static void testGetAtIndex(List<Object> list) throws CollectionsException,BadIndexException {
         System.out.println("\n-> Test get at index.");
         list.addAtTail("0");
         list.addAtTail(1);
@@ -73,7 +69,7 @@ public class Main {
         list.removeAll();
     }
 
-    private static void testSetAtIndex(List<Object> list) throws CollectionsException {
+    private static void testSetAtIndex(List<Object> list) throws IndexOutOfBoundsException,BadIndexException,NotNullAllowedException {
         System.out.println("\n-> Test set at index.");
         list.addAtTail("A");
         list.addAtTail(2);
@@ -88,7 +84,7 @@ public class Main {
         list.removeAll();
     }
 
-    private static void testRemoveNthElement(List<Object> list) throws CollectionsException {
+    private static void testRemoveNthElement(List<Object> list) throws CollectionsException,BadIndexException {
         try{
         System.out.println("\n-> Test remove nth-element.");
         list.addAtTail("A");
@@ -113,7 +109,7 @@ public class Main {
         }
     }
 
-    private static void testAddAtTail(List<Object> list) throws NotNullAllowedException {
+    private static void testAddAtTail(List<Object> list) throws NotNullAllowedException,BadIndexException {
         System.out.println("\n-> Test add at Tail.");
         list.addAtTail("A");
         list.addAtTail('C');
@@ -123,7 +119,7 @@ public class Main {
         list.removeAll();
     }
 
-    private static void testAddAtFront(List<Object> list) throws NotNullAllowedException {
+    private static void testAddAtFront(List<Object> list) throws NotNullAllowedException,BadIndexException {
         System.out.println("\n-> Test add at Front.");
         list.addAtFront("A");
         list.addAtFront(2);
@@ -133,7 +129,7 @@ public class Main {
         list.removeAll();
     }
 
-    public static void printList(List<Object> list) {
+    public static void printList(List<Object> list) throws BadIndexException,NotNullAllowedException {
         Iterator<Object> it = list.getIterator();
         System.out.print("List contents: ");
         while (it.hasNext()) {
