@@ -186,7 +186,7 @@
       <workItem from="1682567503942" duration="9000" />
       <workItem from="1682609795634" duration="48000" />
       <workItem from="1682609937979" duration="1004000" />
-      <workItem from="1682639052833" duration="2443000" />
+      <workItem from="1682639052833" duration="2807000" />
     </task>
     <servers />
   </component>
@@ -218,7 +218,7 @@
     <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest_givenList_whenRemoveAWrongIndex_thenException.ic" NAME="LinkedListTest.givenList_whenRemoveAWrongIndex_thenException Coverage Results" MODIFIED="1682004415510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.linkedlist.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1682639480648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1682641635261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.arraylist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest_whenListIsCreated_thenFirstElementInsertedAtTail.ic" NAME="ArrayListTest.whenListIsCreated_thenFirstElementInsertedAtTail Coverage Results" MODIFIED="1682388283073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
