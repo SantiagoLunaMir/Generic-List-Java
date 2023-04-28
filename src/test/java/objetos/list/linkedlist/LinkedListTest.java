@@ -1,4 +1,5 @@
 package objetos.list.linkedlist;
+import objetos.list.Iterator;
 import objetos.list.exceptions.BadIndexException;
 import objetos.list.exceptions.NotNullAllowedException;
 import org.junit.jupiter.api.Assertions;
@@ -260,6 +261,26 @@ public class LinkedListTest {//un test facil de leer
         Assertions.assertEquals(0,size);
         Assertions.assertTrue(list.isEmpty());
     }
+    @Test
+    public void givenListWithElements_CheckIfHasPrevious() throws BadIndexException,NotNullAllowedException{
+        //Inicializacion
+        LinkedList<String> list=new LinkedList<>();
+        list.addAtTail("1");
+        list.addAtTail("2");
+        list.addAtTail("3");
+        LinkedListIterator iterator= (LinkedListIterator) list.getIterator();
+        list.addAtTail("4");
+        //Ejecucion
+        boolean check1= iterator.hasPrevious();
+        boolean check2= iterator.hasNext();
+        String checkdata=((LinkedListIterator<String>) list.getIterator()).previous();
+        //Validacion
+        Assertions.assertTrue(check1);
+        Assertions.assertTrue(check2);
+        Assertions.assertEquals(checkdata,"1");
+        Assertions.assertFalse(list.isEmpty());
+    }
+
 }
     class PruebaNotNullAllowed implements Executable{
     LinkedList<String> list;

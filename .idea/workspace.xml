@@ -6,24 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e330974d-8996-4ea8-ab6a-100e93386b1e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List_Arrays-Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/List_Arrays-Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/arraylist/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/arraylist/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/arraylist/ArrayListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/arraylist/ArrayListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/LinkedListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/LinkedListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objetos/list/arraylist/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objetos/list/arraylist/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/objetos/list/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objetos/list/linkedlist/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/arraylist/ArrayListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/linkedlist/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objetos/list/linkedlist/LinkedListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objetos/list/linkedlist/LinkedListIterator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +72,7 @@
       <recent name="objetos.list.arraylist" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LinkedListTest.givenListWithElements_CheckIfHasPrevious">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List_Arrays-Generics" />
       <extension name="coverage">
@@ -99,6 +83,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="objetos.list.arraylist" />
       <option name="MAIN_CLASS_NAME" value="objetos.list.arraylist.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="List_Arrays-Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objetos.list.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="objetos.list.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="objetos.list.linkedlist.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.givenListWithElements_GettinItAndSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.givenListWithElements_CheckIfHasPrevious" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List_Arrays-Generics" />
       <extension name="coverage">
         <pattern>
@@ -130,23 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="objetos.list.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="objetos.list.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="givenListWithElements_GettinItAndSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.givenListWithElements_RemoveAllWithValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="List_Arrays-Generics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="objetos.list.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="objetos.list.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="objetos.list.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="givenListWithElements_RemoveAllWithValue" />
+      <option name="METHOD_NAME" value="givenListWithElements_CheckIfHasPrevious" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.givenListWithElements_CheckIfHasPrevious" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.LinkedListTest.givenListWithElements_deletingNodes" />
         <item itemvalue="JUnit.LinkedListTest.givenAnEmptyList_whenAddAtTail_thenElementIsInserted" />
-        <item itemvalue="JUnit.ArrayListTest" />
-        <item itemvalue="JUnit.LinkedListTest.givenListWithElements_RemoveAllWithValue" />
-        <item itemvalue="JUnit.LinkedListTest.givenListWithElements_GettinItAndSize" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +186,11 @@
       <workItem from="1682004092575" duration="2295000" />
       <workItem from="1682385923176" duration="13602000" />
       <workItem from="1682435106801" duration="3160000" />
-      <workItem from="1682478711806" duration="364000" />
+      <workItem from="1682478711806" duration="666000" />
+      <workItem from="1682567503942" duration="9000" />
+      <workItem from="1682609795634" duration="48000" />
+      <workItem from="1682609937979" duration="1004000" />
+      <workItem from="1682639052833" duration="2114000" />
     </task>
     <servers />
   </component>
@@ -235,7 +222,7 @@
     <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest_givenList_whenRemoveAWrongIndex_thenException.ic" NAME="LinkedListTest.givenList_whenRemoveAWrongIndex_thenException Coverage Results" MODIFIED="1682004415510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.linkedlist.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1682005543033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest.ic" NAME="ArrayListTest Coverage Results" MODIFIED="1682639480648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.arraylist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest_whenListIsCreated_thenFirstElementInsertedAtTail.ic" NAME="ArrayListTest.whenListIsCreated_thenFirstElementInsertedAtTail Coverage Results" MODIFIED="1682388283073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -259,7 +246,7 @@
     <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest_whenListIsCreated_thenFirstElementInsertedMoreElementsAtTail.ic" NAME="ArrayListTest.whenListIsCreated_thenFirstElementInsertedMoreElementsAtTail Coverage Results" MODIFIED="1682388508070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.arraylist.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest.ic" NAME="LinkedListTest Coverage Results" MODIFIED="1682401363744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest.ic" NAME="LinkedListTest Coverage Results" MODIFIED="1682640184866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.linkedlist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest_whenListIsCreated_AdddingElementsAndRemoveEspecificValues.ic" NAME="ArrayListTest.whenListIsCreated_AdddingElementsAndRemoveEspecificValues Coverage Results" MODIFIED="1682390677134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
