@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e330974d-8996-4ea8-ab6a-100e93386b1e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objetos/list/linkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objetos/list/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objetos/list/linkedlist/LinkedListTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e330974d-8996-4ea8-ab6a-100e93386b1e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +68,7 @@
       <recent name="objetos.list.arraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.givenListWithElements_CheckIfHasPrevious">
+  <component name="RunManager" selected="JUnit.ArrayListTest">
     <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List_Arrays-Generics" />
       <extension name="coverage">
@@ -153,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.LinkedListTest.givenListWithElements_CheckIfHasPrevious" />
         <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.LinkedListTest.givenListWithElements_deletingNodes" />
         <item itemvalue="JUnit.LinkedListTest.givenAnEmptyList_whenAddAtTail_thenElementIsInserted" />
       </list>
@@ -190,7 +186,7 @@
       <workItem from="1682567503942" duration="9000" />
       <workItem from="1682609795634" duration="48000" />
       <workItem from="1682609937979" duration="1004000" />
-      <workItem from="1682639052833" duration="2114000" />
+      <workItem from="1682639052833" duration="2443000" />
     </task>
     <servers />
   </component>
@@ -266,6 +262,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Generic_List_Java$ArrayListTest_whenListIsCreated_AdddingElementsAndRemoveEspecificValuesButExceptionComeUp.ic" NAME="ArrayListTest.whenListIsCreated_AdddingElementsAndRemoveEspecificValuesButExceptionComeUp Coverage Results" MODIFIED="1682399045732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.arraylist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest_givenListWithElements_CheckIfHasPrevious.ic" NAME="LinkedListTest.givenListWithElements_CheckIfHasPrevious Coverage Results" MODIFIED="1682641361624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>objetos.list.linkedlist.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Generic_List_Java$LinkedListTest_givenListWithElements_SetIt.ic" NAME="LinkedListTest.givenListWithElements_SetIt Coverage Results" MODIFIED="1682401887635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>objetos.list.linkedlist.*</FILTER>
